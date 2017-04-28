@@ -1,5 +1,9 @@
 <!DOCTYPE html>
 <html>
+<link href="estilos.css"
+      rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Crimson+Text|Lobster" rel="stylesheet">
+
 <head>
 	<title>Menu Digital</title>
 </head>
@@ -46,7 +50,34 @@
 
 <!-- Formulario Contactenos y foother -->
 <div >
-	
+<div class="primer">	
+<form class="contact_form" action="" method="post">
+    <ul>
+       <li>
+            <h2 align="center">Contáctanos</h2>
+       </li>
+       <li>
+           <label for="name" id="display">Nombre:</label>
+           <input type="text"  placeholder="Johan Ricardo" required />
+       </li>
+       <li>
+           <label for="email">Email:</label>
+           <input type="email" name="email" placeholder="jricardo@ejemplo.com" required />
+       </li>
+       <li>
+           <label for="website">Sitio Web:</label>
+           <input type="url" name="web" placeholder="http://tutosytips.com" required />
+       </li>
+       <li>
+           <label for="Mensaje">Mensaje:</label>
+           <textarea name="Mensaje" cols="40" rows="6" required ></textarea>
+       </li>
+        <li>
+          <button class="submit" type="submit">Enviar</button>
+        </li>
+    </ul>
+</form>
+</div>	
 
 
 
